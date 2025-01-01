@@ -1,4 +1,7 @@
+import spotify from "./lib/spotify";
+
 function App() {
+  console.log(spotify.getToken());
   return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
 }
 
